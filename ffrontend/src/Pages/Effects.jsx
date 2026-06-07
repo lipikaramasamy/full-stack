@@ -21,7 +21,10 @@ const Effects = () => {
         <button onClick = {()=>setCount(count+1)}>+</button>
         <h1>{like}</h1>
         <button onClick = {()=>setLike(like+1)}>💕</button>
-    </div>
+        {data.map((user) =>(
+            <p key = {user.id}>{user.name}</p>
+        ) )}  
+ </div>
   )
 }
 
