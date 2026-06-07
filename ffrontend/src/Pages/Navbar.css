@@ -1,0 +1,21 @@
+.container{
+    display: flex;
+    justify-content:space-between;
+    background-color: aqua;
+    padding: 20px;
+}
+.List{
+    list-style: none;
+}
+.Link{
+    text-decoration: none;
+    background-color: cadetblue;
+    padding: 10px;
+    color: brown;
+    border-radius: 10px;
+}
+.Link:hover{
+    color: aliceblue;
+    background-color: blueviolet;
+    cursor:pointer;
+}
